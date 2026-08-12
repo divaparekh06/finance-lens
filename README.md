@@ -1,35 +1,100 @@
 # Finance Lens
 
-> A personal financial intelligence and spending analytics application.
+Finance Lens is a cross-platform mobile application designed to help users record, organize, and analyze their personal spending.
 
-## Overview
+The application combines transaction tracking, budgeting, analytics, and data-driven financial insights into a single mobile platform.
 
-Finance Lens is a cross-platform mobile application designed to help users understand their financial behaviour through data-driven spending analysis.
-
-The application aims to go beyond traditional expense tracking by transforming transaction data into meaningful financial insights, helping users understand spending patterns, monitor budgets, and make more informed financial decisions.
-
-## Project Status
-
-🚧 Under Development
-
-## Technology Stack
-
-- Flutter
-- Dart
-- Firebase
-
-## Core Objectives
-
-- Track personal expenses
-- Categorize transactions
-- Monitor budgets
-- Visualize spending patterns
-- Generate meaningful financial insights
-
-## Future Scope
-
-The application may be extended with intelligent features such as predictive spending analysis, automated transaction categorization, receipt scanning, and AI-assisted financial recommendations.
+The project is being developed as an individual semester project using Flutter and Firebase.
 
 ---
 
-**Finance Lens** — Turning expenses into insights.
+## 🎯 Project Objectives
+
+Finance Lens aims to:
+
+- Provide secure user authentication.
+- Allow users to create, view, update, and delete financial transactions.
+- Allow users to create and monitor monthly budgets.
+- Present spending information through meaningful analytics.
+- Generate understandable financial insights from user data.
+- Provide a responsive and user-friendly mobile interface.
+- Store application data securely using Firebase.
+- Deliver a tested and deployable Android application.
+
+---
+
+## ✨ Core Features
+
+### 🔐 Authentication
+
+- User registration
+- User login
+- User logout
+- Authentication state management
+- Role-based access
+
+### 💸 Transaction Management
+
+- Add transactions
+- View transactions
+- Edit transactions
+- Delete transactions
+- Categorize transactions
+- Search and filter transactions
+
+### 💰 Budget Management
+
+- Set monthly budgets
+- Update budgets
+- Monitor spending
+- View remaining budget
+- Track budget utilization
+
+### 📊 Analytics
+
+- Total spending summaries
+- Category-wise spending
+- Spending trends
+- Budget comparison
+- Financial insights
+
+### 🔔 Notifications
+
+- Budget-related alerts
+- Application notifications
+- Firebase Cloud Messaging integration
+
+---
+
+## 🛠️ Technology Stack
+
+| Component | Technology |
+|---|---|
+| Mobile Framework | Flutter |
+| Programming Language | Dart |
+| State Management | Riverpod |
+| Authentication | Firebase Authentication |
+| Database | Cloud Firestore |
+| Notifications | Firebase Cloud Messaging |
+| Data Visualization | Flutter-compatible charting library |
+| Testing | Flutter Unit & Widget Testing |
+| Version Control | Git |
+| Repository | GitHub |
+| Primary Platform | Android |
+
+---
+
+## 🏗️ Architecture
+
+Finance Lens follows a layered architecture:
+
+```text
+Presentation Layer
+        ↓
+Business Logic Layer
+        ↓
+Repository Layer
+        ↓
+Service Layer
+        ↓
+Firebase
