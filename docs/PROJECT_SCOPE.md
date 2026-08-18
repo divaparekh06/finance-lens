@@ -133,3 +133,59 @@ The following capabilities are outside the initial scope of Finance Lens:
 - Social networking between users
 
 Finance Lens will focus on personal financial tracking, budgeting, analytics, and data-driven insights rather than functioning as a banking, payment, investment, or accounting platform.
+
+
+## 7. Technology Stack
+
+Finance Lens will use the following technologies and tools:
+
+| Component | Technology |
+|---|---|
+| Mobile Framework | Flutter |
+| Programming Language | Dart |
+| State Management | Riverpod |
+| Authentication | Firebase Authentication |
+| Database | Cloud Firestore |
+| Push Notifications | Firebase Cloud Messaging |
+| Data Visualization | Flutter-compatible charting library |
+| Testing | Flutter Unit and Widget Testing |
+| Version Control | Git |
+| Repository Hosting | GitHub |
+| Primary Deployment Target | Android |
+| Distribution | Google Play Store / Institute Developer Account |
+
+The technology stack is selected to support cross-platform development while keeping the implementation manageable for an individual semester project.
+
+Specific third-party packages will be selected during implementation based on project requirements, compatibility, maintenance status, and simplicity.
+
+## 8. Feature and Requirement Matrix
+
+The following matrix maps the major project requirements to their planned implementation in Finance Lens.
+
+| Requirement | Priority | Planned Implementation |
+|---|---|---|
+| User Authentication | Must Have | Firebase Authentication |
+| Role-Based Access | Must Have | User/Admin authorization model |
+| Transaction CRUD | Must Have | Flutter UI + Cloud Firestore |
+| Budget Management | Must Have | Flutter UI + Cloud Firestore |
+| Category Management | Must Have | Application logic + Firestore |
+| Dashboard | Must Have | Flutter + Riverpod |
+| Financial Analytics | Must Have | Derived transaction and budget data |
+| Financial Insights | Must Have | Rule-based business logic |
+| Responsive UI | Must Have | Flutter responsive layouts |
+| Firebase Integration | Must Have | Firebase Authentication + Cloud Firestore |
+| Push Notifications | Must Have | Firebase Cloud Messaging |
+| Input Validation | Must Have | Flutter form validation |
+| Error Handling | Must Have | UI and service-layer handling |
+| GitHub Repository | Must Have | Git + GitHub |
+| Project Documentation | Must Have | Markdown documentation + IEEE-format SRS |
+| Unit Testing | Must Have | Flutter unit tests |
+| Widget Testing | Must Have | Flutter widget tests |
+| Release Build | Must Have | Android APK/AAB |
+| Deployment | Must Have | Google Play Store / appropriate institute account |
+| ML-Based Prediction | Optional | Future enhancement |
+| Advanced Analytics | Optional | Future enhancement |
+
+### Requirement Traceability
+
+The project will prioritize completion of all Must Have requirements before implementing optional enhancements. Optional features will only be considered after the core application has been implemented, tested, and stabilized.

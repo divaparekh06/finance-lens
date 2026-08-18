@@ -68,7 +68,7 @@ Each authenticated user will be identified using the unique Firebase Authenticat
 
 The initial application roles will be:
 
-- **User** — Can manage their own transactions, budgets, categories, and financial analytics.
+- **User** — Can manage their own transactions and budgets and access their financial analytics.
 - **Admin** — Can perform limited administrative operations such as managing application-level configuration and predefined categories.
 
 Access control will be implemented at both the application level and the Firestore security-rule level. UI-level restrictions will control the features presented to users, while Firestore security rules will provide the underlying data-access protection.
@@ -312,17 +312,5 @@ After successful authentication, users will be directed to the main application.
 
 
 
-# TECH STACK
-| Component        | Technology                          |
-| ---------------- | ----------------------------------- |
-| Mobile framework | Flutter                             |
-| Language         | Dart                                |
-| State management | Riverpod                            |
-| Authentication   | Firebase Authentication             |
-| Database         | Cloud Firestore                     |
-| Notifications    | Firebase Cloud Messaging            |
-| Charts           | Flutter-compatible charting library |
-| Version control  | Git                                 |
-| Repository       | GitHub                              |
-| IDE              | VS Code                             |
+
 

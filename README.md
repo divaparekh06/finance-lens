@@ -8,7 +8,7 @@ The project is being developed as an individual semester project using Flutter a
 
 ---
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 Finance Lens aims to:
 
@@ -23,9 +23,9 @@ Finance Lens aims to:
 
 ---
 
-## ✨ Core Features
+##  Core Features
 
-### 🔐 Authentication
+###  Authentication
 
 - User registration
 - User login
@@ -33,7 +33,7 @@ Finance Lens aims to:
 - Authentication state management
 - Role-based access
 
-### 💸 Transaction Management
+###  Transaction Management
 
 - Add transactions
 - View transactions
@@ -42,7 +42,7 @@ Finance Lens aims to:
 - Categorize transactions
 - Search and filter transactions
 
-### 💰 Budget Management
+###  Budget Management
 
 - Set monthly budgets
 - Update budgets
@@ -50,7 +50,7 @@ Finance Lens aims to:
 - View remaining budget
 - Track budget utilization
 
-### 📊 Analytics
+###  Analytics
 
 - Total spending summaries
 - Category-wise spending
@@ -58,7 +58,7 @@ Finance Lens aims to:
 - Budget comparison
 - Financial insights
 
-### 🔔 Notifications
+###  Notifications
 
 - Budget-related alerts
 - Application notifications
@@ -66,7 +66,7 @@ Finance Lens aims to:
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Component | Technology |
 |---|---|
@@ -84,7 +84,7 @@ Finance Lens aims to:
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 Finance Lens follows a layered architecture:
 
